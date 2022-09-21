@@ -1,16 +1,19 @@
-//Creado por stalin
+//programa basico de suma
+//Creado por  STALIN ADALBERTO  FRANCIS QUINDE 
+//nombre de modificador LEIVER ISMAEL PAZMIÑO MORENO
+//FECHA 21/09/2002
 #include<iostream>
 using namespace std;
 
 int main()
 {
 
- float x,y,z;
+ float PMLIx,PMLIy,PMLIz;
  cout<<"Ingrese 2 numero x y :";
- cin>>x>>y;
- z=x+y;
+ cin>>PMLIx>>PMLIy;
+ PMLIz=PMLIx+PMLIy;
  cout<<"El resutado es : ";
- cout<<z<<endl;
+ cout<<PMLIz<<endl;
 
  return 0;
 

@@ -1,28 +1,28 @@
 //Programa que presenta las operaciones básicas
-//Creado por Stalin Francis 
-//Fecha: 14-09-2022
+//Creado por PAZMIÑO MORENO LEIVER 
+//Fecha:21 -09-2022
 
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	float x,y,s,m,d,r;
+	float pmlix,pmliy,pmlis,pmlim,pmlid,pmlir;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
+	cout<<"Ingrese en valor de pmlix=:";
+	cin>>pmlix;
+	cout<<"Ingrese en valor de pmliy=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>pmliy;
+	pmlis=pmlix+pmliy;
+	pmlim=pmlix*pmliy;
+	pmlid=pmlix/pmliy;
+	pmlir=pmlix-pmliy;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"Las suma de "<<pmlix<<" + "<<pmliy<<" = "<<pmlis<<endl;
+	cout<<"Las multiplicacion de "<<pmlix<<" * "<<pmliy<<" = "<<pmlim<<endl;
+	cout<<"Las division de "<<pmlix<<" / "<<pmliy<<" = "<<pmlid<<endl;
+	cout<<"Las resta de "<<pmlix<<" - "<<pmliy<<" = "<<pmlir<<endl;
 	return 0 ;
 
 }

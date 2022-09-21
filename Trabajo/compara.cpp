@@ -1,17 +1,21 @@
+//programa que permina
+// NOMBRE DE AUTOR:  STALIN ADALBERTO  FRANCIS QUINDE 
+//nombre de modificador: LEIVER ISMAEL PAZMIÑO MORENO
+//FECHA 21/09/2022
 #include<iostream>
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float pmlia,pmlib;
+	cout<<"ingrese a pmlib:"; cin>>pmlia>>pmlib;
+	if(pmlia>=pmlib)
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<pmlia<<" es mayor  "<<pmlib<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<pmlib<<" es mayor  "<<pmlia<<endl;
 
 
 	}
